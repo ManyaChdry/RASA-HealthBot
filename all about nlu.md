@@ -90,6 +90,8 @@ Another way to specify synonyms:
           - JPMC
           - Bank of America
   
-  When we supply a lookup table in your training data, the contents of that table are combined into one large regular expression. This regex is used to check each training example to see if it contains matches for entries in the lookup table.
+  When we supply a lookup table in your training data, the contents of that table are combined into one large regular expression. This regex is used to check each training example to see if it contains matches for entries in the lookup table.   
+  Note:   
   
-  
+  ![image](https://user-images.githubusercontent.com/64036955/122665266-d9553500-d1c3-11eb-8ebe-1d3c6d367796.png)
+
