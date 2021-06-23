@@ -37,5 +37,5 @@
   
   
  ####  
- #### 23/06 - Today , we discussed about forms and planned our work on how to move ahead with forms . Reet had some problems in installing anaconda & python , we tackled that
+ #### 23/06 - Today , we discussed about forms and planned our work on how to move ahead with forms . Reet had some problems in installing anaconda & python , we sorted that .
   
