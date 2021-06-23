@@ -78,4 +78,4 @@ Note: The from_intent slot mapping will not apply during the initial activation 
                   
 ➡️ Type 4: from_triggered_intent :
 To fill a slot based on the intent that activated the form, we use the from_trigger_intent mapping.  
-The from_trigger_intent mapping will fill slot slot_name with value my_value if the form was activated by a user message with intent intent_name.
+The from_trigger_intent mapping will fill slot slot_name with value my_value if the form was activated by a user message with intent intent_name. 
