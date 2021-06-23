@@ -1,2 +1,57 @@
 RULES
-used to train dataset in chatbots
+
+a type of training data used to train your assistant's dialogue management model 
+describe short pieces of conversations that should always follow the same path
+
+rules don't have the power to generalize to unseen conversation paths
+therefore combination of rules and stories to our assistant makes it robust and able to handle real user behavior
+
+Before you start writing rules, make sure that the RULE POLICY is added to model configuration:
+policies:
+... #other policies
+name: RulePolicy
+
+
+ rule: Say `hello` whenever the user sends a message with intent `greet`
+  steps:
+   intent: greet
+   action: utter_greet
+
+
+rule: Say `hello` when the user starts a conversation with intent `greet`
+  conversation_start: true
+  steps:
+   intent: greet
+   action: utter_greet
+   
+  
+rule: Only say `hello` if the user provided a name
+  condition:
+   slot_was_set:
+     user_provided_name: true
+  steps:
+   intent: greet
+   action: utter_greet  
+   
+   
+rule: Rule which will wait for user message when it was applied
+  steps:
+  - intent: greet
+  - action: utter_greet
+  # - action: action_listen
+  # Every rule implicitly includes a prediction for `action_listen` as last step.
+  # This means that Rasa Open Source will wait for the next user message.
+
+
+rule: Rule which will not wait for user message once it was applied
+  steps:
+  - intent: greet
+  - action: utter_greet
+  wait_for_user_input: false
+  
+
+When a Form is active, the bot will make predictions based on how the form is defined, ignoring rules. 
+Rules become applicable again if:
+
+    the form fills all required slots
+    the form rejects its execution
