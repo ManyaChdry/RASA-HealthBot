@@ -50,13 +50,17 @@ For Example:
               - What's the weather like today?
               - Does it look sunny outside today?
               - Oh, do you mind checking the weather for me please?
-              - I like sunny days in Berlin.
+              - I like sunny days in Berlin.  
+              
+
 
 ### Entities:  
 Entities are structured pieces of information that can be extracted from a user's message.
 Entities are annotated in training examples with the entity's name. In addition to the entity name, you can annotate an entity with synonyms, roles, or groups.  
 **_Full syntax_**:   [<entity-text>]{"entity": "<entity name>", "role": "<role name>", "group": "<group name>", "value": "<entity synonym>"}  
   
+  ![image](https://user-images.githubusercontent.com/64036955/123065363-b5e0f300-d42c-11eb-9325-1c987941de8c.png)
+
   
 ### Synonyms:  
   Synonyms normalize your training data by mapping an extracted entity to a value other than the literal text extracted. 
