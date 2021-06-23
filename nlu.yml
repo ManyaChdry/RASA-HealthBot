@@ -1,7 +1,7 @@
 version : "2.0"
 nlu:
-- intent: 
-  examples:  
+- intent: greet
+  examples:  |
   - hey
   - hello
   - hi there
@@ -11,7 +11,7 @@ nlu:
   - Hiiii
   - what's up
   
-- intent: 
+- intent: bye
   examples: 
   - bye
   - goodbye
@@ -35,7 +35,7 @@ nlu:
   - positively
   
 - intent: deny
-  examples: 
+  examples:  |
   - no
   - nah
   - never
@@ -48,7 +48,7 @@ nlu:
   -could have been better
   
 - intent: Thankyou
-  examples: 
+  examples: |
   - thanks
   - thank you
   - oh, great thanks
@@ -81,7 +81,7 @@ nlu:
     - How many times per week should I go to the gym?  
     
 - intent : out_of_scope
-  examples: 
+  examples:  |
     - that's not what I want to do
     - wait stop
     - you're no help
