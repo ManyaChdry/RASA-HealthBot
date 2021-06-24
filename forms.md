@@ -23,7 +23,16 @@ We can describe your assistant's behavior for the end of a form with a rule or a
 If we don't add an applicable story or rule, the assistant will automatically listen for the next user message after the form is finished.  
 (represented by active loop = NULL)
 
-
+### Slots:  
+Slot is bot's memory. Slots are defined in the slots section of your domain with their name, type and if and how they should influence the assistant's behavior.  
+Slot types:  
+1. Text : For storing text values.
+1. Boolean: For storing  true or false values.
+2. Categorical:  For storing slots which can take one of N values. Ex: ![image](https://user-images.githubusercontent.com/64036955/123245548-92887780-d502-11eb-8559-fff699488024.png)
+3. Float:  For storing real no.s.
+4. List: For storing a list of values.
+5. Any : For storing arbitrary values (they can be of any type, such as dictionaries or lists). The property influence_conversation cannot be set to true for this slot type.  
+6. Custom Slot type:  To implement a custom slot type, we can have an independent python module, separate from custom action code. Save the code for your custom slot in a directory alongside an empty file called "__init__.py" so that it will be recognized as a python module. You can then refer to the custom slot class by it's module path. Use the module path to refer to the custom slot type in your domain file.
 ### Slot Mappings:  
 There are 4 predefined mappings to fill the slots of a form based on the latest user message. We can have custom slot mappings too.  
 
