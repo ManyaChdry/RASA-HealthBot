@@ -88,4 +88,17 @@ Note: The from_intent slot mapping will not apply during the initial activation 
                   
 ➡️ Type 4: from_triggered_intent :
 To fill a slot based on the intent that activated the form, we use the from_trigger_intent mapping.  
-The from_trigger_intent mapping will fill slot slot_name with value my_value if the form was activated by a user message with intent intent_name. 
+The from_trigger_intent mapping will fill slot slot_name with value my_value if the form was activated by a user message with intent intent_name.   
+
+### To handle cases when requested slots aren't filled accordingly  
+While a form is active, if a user's input does not fill the requested slot, the execution of the form action will be rejected i.e. the form will automatically raise an ActionExecutionRejection.  
+To intentionally reject the form execution, you can also return an ActionExecutionRejected event as part of your custom validations or slot mappings.  
+To handle situations that might cause a form's execution to be rejected, you can write rules or stories that include the expected interruptions.   
+These can be done in stories and/or rules:  
+![image](https://user-images.githubusercontent.com/64036955/123368380-594f1680-d599-11eb-99ec-3f56d6288ba1.png)  
+![image](https://user-images.githubusercontent.com/64036955/123368400-62d87e80-d599-11eb-866d-67ea3dd972a1.png)  
+
+**It is strongly recommended that you build these rules or stories using interactive learning.** It can be done using **rasa interactive** command on the shell.  
+
+
+
