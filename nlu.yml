@@ -101,3 +101,52 @@ nlu:
     - I want to do something else
     - I changed my mind
     
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?  
+    
+ - intent: inform
+   examples: |
+    - a full [8 hours](sleep)
+    - only [four hours](sleep)
+    - about [six hours](sleep)
+    - [low](stress)
+    - [medium](stress)
+    - [high](stress)
+    - Yes, I went for a [run](exercise)
+    - uh huh an hour of [yoga](exercise)
+    - yep, I went for a [hike](exercise)
+    - Yes I took the dog for a [walk](exercise)
+    - Yeah, I played [tennis](exercise)
+    - I went [swimming](exercise)
+    - Took a [spin class](exercise)
+    - Did some [boxing](exercise)
+    - [rock climbing](exercise)
+    - played some [basketball](exercise)
+    - played [football](exercise)
+    - I did a [workout](exercise) video
+    - I played[game](exercise) outdoors
+    - I want to get up early and go for a run
+    - Be more patient with my family
+    - Try to be a better friend
+    - Make sure to eat better tomorrow
+    - eat less junk food
+    - eat better
+    - spend less time on my phone
+    - don't procrastinate
+    - Go to bed earlier
+    - Don't stay up so late
+    - try to make some time to meditate
+    - i ate pretty healthy overall
+    - lots of fruits and vegetables
+    - I ate a salad
+    - too many snacks
+    - too many sweets
+    - too much junk food
+    - a lot of carbs
+    - too much fatty food
+    - Get more exercise
+    
