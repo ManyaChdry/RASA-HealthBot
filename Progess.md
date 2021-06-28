@@ -38,14 +38,13 @@
   
   
   **28/06/2021**
-  Monday
-  Meet time 
-  Available members:
+  **Monday   Meet time 3:30  Available members: all four**<br>
+  Today we discussed about actions and forms  and explained the concepts of training data to each other. Akanksha and Reet is writing actions.py file and will explain it to everyone as both of them know some basic python. 
   
   
   
   **29/06/2021**
-  Tuesday
+  Tuesday   
   Meet time 
   Available members:
   
