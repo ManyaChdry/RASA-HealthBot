@@ -1,5 +1,7 @@
 **In the initial meetings , we all four introduced ourselves to each other and decided to come up with an idea on which we are going to build a chatbot .**<br>
-  **After one or two day , we discussed our ideas in DSM and then we came up on this conclusion that we will build a chatbot on "Weather report" , and we started following**  [this](https://youtu.be/xu6D_vLP5vY) and we assigned 2-3 days to each of us  to watch this tutorial and **install rasa**
+  **After one or two day , we discussed our ideas in DSM and then we came up on this conclusion that we will build a chatbot on "Weather report" , and we started following**  [this](https://youtu.be/xu6D_vLP5vY) and we assigned 2-3 days to each of us  to watch this tutorial and **install rasa**.<br>
+  
+ Everyone of us faced problems in installing rasa 
    <hr>
   
   
@@ -43,10 +45,11 @@
   
   
   
-  **29/06/2021**
+  **29/06/2021
   Tuesday   
-  Meet time 
-  Available members:
+  Meet time 3:30 - 3:45** <br>
+  **Available members: Akanksha , Pragya , reet**<br>
+  Today we finished up with forms part and we are learning about APIs
   
   
   **30/06/2021**
