@@ -52,10 +52,10 @@
   Today we finished up with forms part and we are learning about APIs
   
   
-  **30/06/2021**
-  Wednesday
-  Meet time 
-  Available members:
+  **30/06/2021**<br>
+  **Available members: Pragya & Akanksha (manya had fever & Reet had college meeting)** <br>
+ We faced difficulty in some terms like header ,tracker, dispatcher, etc in actions.py file and form policy. We will read about that and document that for references
+
   
   
   
