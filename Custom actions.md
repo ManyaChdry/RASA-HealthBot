@@ -18,4 +18,30 @@ If rasa is installed, you can run the action server using a rasa command** <br>
   
   ### create_health_log()
   it takes all the slots as arguements.<br>
-  in the first command we are requesting an url to ask for the data from airtable api.
+  in the first command we are requesting an url to ask for the data from airtable api.<br>
+
+### Writing Custom Actions
+  
+  **The Action class is the base class for any custom action. To define a custom action, create a subclass of the Action class and overwrite the two required methods, name and run. The action server will call an action according to the return value of its name method when it receives a request to run an action**
+  ![2021-07-01 15_23_35-Actions](https://user-images.githubusercontent.com/72215893/124105011-6fb90e80-da80-11eb-9cee-c57bfe99a6cf.png)
+  
+  #### Methods
+  - **Action.name** -Defines the action's name. The name returned by this method is the one used in your bot's domain. It returns Name of action.<br>
+      **Return type: str**<br>
+  - **Action.run** - 
+
+
+   ![Actions run](https://user-images.githubusercontent.com/72215893/124113447-13a6b800-da89-11eb-9bb8-83c1eeee1aba.png)
+   
+   **A dispatcher is an instance of the CollectingDispatcher class used to generate responses to send back to the user.**<br>
+   **CollectingDispatcher** has one method, utter_message, and one attribute, messages. 
+   It is used in an action's run method to add responses to the payload returned to the Rasa server<br>
+   
+   #### CollectingDispatcher.utter_message
+   **The utter_message method can be used to return any type of response to the user:**<br>
+    **text- The text to return to the user.**<br>
+    It can be a image 'url' , response etc<br>
+    Example: dispatcher.utter_message(response = "utter_greet")<br>
+     dispatcher.utter_message("Thanks, your answers have been recorded!")
+ 
+
