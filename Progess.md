@@ -62,7 +62,8 @@
   **01/07/2021**
   Thursday
   Meet time 
-  Available members:
+  **Available members: Reet, Akanksha, Manya (Pragya was not well)**
+  Today we decided to code along to video to properly check if our code is working fine or not. We also planned to document actions and domain. Since actions and forms uses some part of python, it was a trouble to understand it at first. We have planned to do this within 2 days.
   
   
   
