@@ -68,17 +68,17 @@
   
   
   
-  **02/07/2021**
-  Friday
-  Meet time :3:30
-  Available members: Pragya, Akanksha, Manya, Reet had QSM.
+  **02/07/2021**  
+  Friday  
+  Meet time :3:30  
+  Available members: Pragya, Akanksha, Manya, Reet had QSM.    
   Decided to train our models and discussed about custom actions parameters etc.    
   
   
-  **03/07/2021** 
-  Monday
-  Meet time: 4:05 pm
-  Available members: Pragya, Akanksha, Manya
+  **03/07/2021**   
+  Monday  
+  Meet time: 4:05 pm   
+  Available members: Pragya, Akanksha, Manya    
   Discussed on the errors upon training and its reasons. Decided to start the airtable part for forms to work, and understand the terms in actions file and then document it. Domain documentation is also to be done yet.
   
   
