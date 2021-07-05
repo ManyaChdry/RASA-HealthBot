@@ -11,7 +11,7 @@ nlu:
     - Hiiii
     - what's up
   
-- intent: bye
+- intent: goodbye
   examples: |
     - bye
     - goodbye
@@ -47,7 +47,7 @@ nlu:
     - i doubt 
     -could have been better
   
-- intent: Thankyou
+- intent: thankyou
   examples: |
     - thanks
     - thank you
