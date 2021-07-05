@@ -2,58 +2,58 @@ version : "2.0"
 nlu:
 - intent: greet
   examples:  |
-  - hey
-  - hello
-  - hi there
-  - good morning
-  - good evening
-  - hey there
-  - Hiiii
-  - what's up
+    - hey
+    - hello
+    - hi there
+    - good morning
+    - good evening
+    - hey there
+    - Hiiii
+    - what's up
   
 - intent: bye
-  examples: 
-  - bye
-  - goodbye
-  - see you
-  - see you later
-  - see ya
-  - ok then
-  - got to go
-  - talk to you later
+  examples: |
+    - bye
+    - goodbye
+    - see you
+    - see you later
+    - see ya
+    - ok then
+    - got to go
+    - talk to you later
   
-- intent: affirm: 
-  examples: 
-  - yes
-  - yeah
-  - sure
-  - right
-  - why not
-  - ok
-  - okay
-  - alright
-  - positively
+- intent: affirm
+  examples: |
+    - yes
+    - yeah
+    - sure
+    - right
+    - why not
+    - ok
+    - okay
+    - alright
+    - positively
   
 - intent: deny
   examples:  |
-  - no
-  - nah
-  - never
-  - not at all
-  - nope
-  - denied
-  - i deny
-  - i don't think so
-  - i doubt 
-  -could have been better
+    - no
+    - nah
+    - never
+    - not at all
+    - nope
+    - denied
+    - i deny
+    - i don't think so
+    - i doubt 
+    -could have been better
   
 - intent: Thankyou
   examples: |
-  - thanks
-  - thank you
-  - oh, great thanks
-  - ok thanks
-  - thanks bye
+    - thanks
+    - thank you
+    - oh, great thanks
+    - ok thanks
+    - thanks bye
   
 - intent: ask_lower_stress
   examples: |
@@ -62,7 +62,6 @@ nlu:
     - What are some good ways to lower stress?
     - What are good ways to relax?
     - What are some things I can do lower my stress?
-
 - intent: ask_eat_healthy
   examples: |
     - What's considered a good diet?
@@ -108,8 +107,8 @@ nlu:
     - am I talking to a bot?
     - am I talking to a human?  
     
- - intent: inform
-   examples: |
+- intent: inform
+  examples: |
     - a full [8 hours](sleep)
     - only [four hours](sleep)
     - about [six hours](sleep)
@@ -128,7 +127,7 @@ nlu:
     - played some [basketball](exercise)
     - played [football](exercise)
     - I did a [workout](exercise) video
-    - I played[game](exercise) outdoors
+    - I played [game](exercise) outdoors
     - I want to get up early and go for a run
     - Be more patient with my family
     - Try to be a better friend
@@ -149,4 +148,3 @@ nlu:
     - a lot of carbs
     - too much fatty food
     - Get more exercise
-    
