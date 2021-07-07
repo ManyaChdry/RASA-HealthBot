@@ -82,7 +82,12 @@
   Discussed on the errors upon training and its reasons. Decided to start the airtable part for forms to work, and understand the terms in actions file and then document it. Domain documentation is also to be done yet.
   
   
-  
+  **06/07/21**
+  Tuesday
+  Meet time: 3.30 pm
+  Available time: Pragya, Reet 
+  Ankit was also there.
+  Discussed on the actions part. And planning to start training soon. Airtable and actions part need to finished urgently.
   
   
   
