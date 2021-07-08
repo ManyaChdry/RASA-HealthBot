@@ -47,5 +47,8 @@ If rasa is installed, you can run the action server using a rasa command** <br>
      
  ### Tracker
 The Tracker class represents a Rasa conversation tracker. It lets you access your bot's memory in your custom actions. You can get information about past events and the current state of the conversation through Tracker attributes and methods.
+
+### Header 
+It specifies the content type that is json format
  
 
