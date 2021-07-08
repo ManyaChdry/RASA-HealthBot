@@ -8,3 +8,7 @@ Response template should also be added for each intent, this way the assistant w
 In this file, we also define what will our bot do when a new intent is added or defined.
 
 EG: when it detects ask_eat_unheathy intent, this means the user has a question about healthy diets, we want the user to reply with a template that we previously defined in the end of yaml file.
+
+All intents should be first registered on the domain file after creating intents in the nlu file.
+
+Then response template should be written in this file.
