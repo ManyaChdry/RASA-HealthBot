@@ -85,13 +85,34 @@
   **06/07/21**
   Tuesday
   Meet time: 3.30 pm
-  Available time: Pragya, Reet 
+  Available members: Pragya, Reet 
   Ankit was also there.
   Discussed on the actions part. And planning to start training soon. Airtable and actions part need to finished urgently.
   
   
+  **12/07/21**
+  Monday
+  Meet time:3.30 pm
+  Available members: Pragya, Akansha, Manya
+  Akansha and Manya tried training the model but weren't successfull so pragya helped them with it. 
+  Traininng phase is still goin on. 
+  Manya installed RASA again on Ubantu, after trying it on Windows and google collab. Version 2.80 was installed. 
+  Pragya and Akansha working on RASA on Windows.
+  Akansha been working on custom action.
+  APIs part being handled by Pragya.
+  
+  Had a meeting at 8:45 pm with HealthBot complete team, Ankit and Jennifer for patenting out project and getting letter of recommendation.
+  Had planned to meet at 9:30pm for Akansha and Manya's doubts but it got cancelled because Pragya had extended meet with Ankit and Jennifer.
   
   
+  **13/07/21**
+  Tueday
+  Meet time:3.30 pm
+  Available members: Pragya, Akansha, Manya
+  Akansha tried training the model, was successfull in solving  local host error with Pragya's help. 
+  Traininng phase is still goin on. 
+  Pragya and Manya decided to work on Domain since Reet busy with her semester.
+  Akansha been working on custom action, which is almost complete.
   
   
   
