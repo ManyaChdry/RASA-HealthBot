@@ -102,7 +102,6 @@
   APIs part being handled by Pragya.
   
   Had a meeting at 8:45 pm with HealthBot complete team, Ankit and Jennifer for patenting out project and getting letter of recommendation.
-  Had planned to meet at 9:30pm for Akansha and Manya's doubts but it got cancelled because Pragya had extended meet with Ankit and Jennifer.
   
   
   **13/07/21**
