@@ -114,7 +114,12 @@
   Akansha been working on custom action, which is almost complete.
   
   
-  
+  **21/07/21**
+  Wednesday
+  Meet time: 9.30pm
+  Available members: Manya, Pragya
+  Still working on training the model on Linux Ubuntu. 
+  Read Domain file on github which was earlier updated by Pragya, its 
   
   
   
