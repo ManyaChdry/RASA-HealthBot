@@ -112,13 +112,44 @@
   Akansha been working on custom action, which is almost complete.
   
   
+  **19/07/21**
+  Monday
+  Meet time: 9.30pm
+  Available members: none.
+  Akansha on vacation. 
+  Manya has exams going on.
+  Pragya busy with some work.
+    
+  
+  
+  **20/07/21**
+  Tuesday
+  Meet time: 9.30pm
+  Available members: Manya, Pragya
+  Work assigned: Manya to keep working on training the model and start with Twilio(messaging channel) 
+                 Pragya working on APIs
+                 Akansha almost completed custom actions. 
+  
+  
   **21/07/21**
   Wednesday
   Meet time: 9.30pm
   Available members: Manya, Pragya
-  Still working on training the model on Linux Ubuntu. 
-  Read Domain file on github which was earlier updated by Pragya.
+  Still working on training the model on Linux Ubuntu. Rasa train won't work.
+  Tried displaying the error to Pragya, but had issues with screen presentation.
+  Read Domain file on github which was earlier updated by Pragya. Its completed.
+  Discussed about Twilio and Ngrok (channel to connect Twilio to our Bot), started its documentation on Github.
   
+  Task: Work on Twilio and its documentation(Manya)
+        Work on APIs(Pragya)
+  Akansha on vacation, moreover her laptop hv issues and ain't working.
+  Reet left us a week ago, has lots of clg work, might join in further projects.
+  
+  
+  
+  **22/07/21**
+  Meet time: 9.30pm
+  Available members: Manya
   
   
   
