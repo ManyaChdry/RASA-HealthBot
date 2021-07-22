@@ -16,7 +16,6 @@
   Thursday
   meet time 4:00pm
   Available members: Pragya, Reet, Manya
-  (Akansha had exams)
   
   Discussed about completion of FORMS from RASA Documentation.
   It was decided, that forms be completed by 25/06/21 along with its documentation on GitHub.
@@ -53,7 +52,7 @@
   
   
   **30/06/2021**<br>
-  **Available members: Pragya & Akanksha (manya had fever & Reet had college meeting)** <br>
+  **Available members: Pragya & Akanksha** <br>
  We faced difficulty in some terms like header ,tracker, dispatcher, etc in actions.py file and form policy. We will read about that and document that for references
 
   
@@ -71,7 +70,7 @@
   **02/07/2021**  
   Friday  
   Meet time :3:30  
-  Available members: Pragya, Akanksha, Manya, Reet had QSM.    
+  Available members: Pragya, Akanksha, Manya.    
   Decided to train our models and discussed about custom actions parameters etc.    
   
   
@@ -86,7 +85,6 @@
   Tuesday
   Meet time: 3.30 pm
   Available members: Pragya, Reet 
-  Ankit was also there.
   Discussed on the actions part. And planning to start training soon. Airtable and actions part need to finished urgently.
   
   
@@ -119,7 +117,7 @@
   Meet time: 9.30pm
   Available members: Manya, Pragya
   Still working on training the model on Linux Ubuntu. 
-  Read Domain file on github which was earlier updated by Pragya, its 
+  Read Domain file on github which was earlier updated by Pragya.
   
   
   
