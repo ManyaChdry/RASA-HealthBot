@@ -7,14 +7,14 @@ Sign up for free on NGROK account
  
  On our comptures
 We unzip the downloaded zip file
-  by double clicking (Windows in RasaProjct folder)
-  unzip /path/to/ngrok.zip (Linux in Command prompt)
+  1.) by double clicking (Windows in RasaProjct folder)
+  2.) unzip /path/to/ngrok.zip (Linux in Command prompt)
   
 now open the directory RasaProject in Command prompt/Command line
 now using the command ls(for Linux) and dir (for Windows), check if u can find ngrok.exe file
 
 the file should be present in your RasaProject folder, if it is then
-ngrok http 5005   
+*ngrok http 5005   
 ^ command could open up a channel that we would be using further for connecting Twilio with out Bot.
 
   
