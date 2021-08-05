@@ -39,4 +39,10 @@ The quickest way to get started with ngrok and Visual Studio is to use an open s
 
 ![image](https://user-images.githubusercontent.com/69692410/128381835-32acf208-d181-4c8d-8e55-6e7a5c594f74.png)
 
+Chose "Start ngrok Tunnel" from the Visual Studio "Tools" menu, ngrok will start, and you'll see your app's new public URL.
 
+![image](https://user-images.githubusercontent.com/69692410/128382014-f28adbd2-94e6-48f3-84e1-04ed362719ab.png)
+
+Here, ngrok gave us the URL of https://a9f03915.ngrok.io. Make sure you've started your application in Visual Studio and then try to open that URL in your twilio browser. It should load the app from your local development machine. Now, you have a URL you can give to anyone or use in the Twilio console, and it will hit the app running on your machine. 
+
+You can leave ngrok running while you are working on your bot. If you stop your bot, ngrok can continue to run and will resume serving traffic to your app when you restart your app. If you do shut down ngrok, then you will be given a new URL when it restarts. This means your ngrok URL will need to be updated each time you restart ngrok.
