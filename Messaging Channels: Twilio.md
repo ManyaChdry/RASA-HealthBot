@@ -14,7 +14,7 @@ now open the directory RasaProject in Command prompt/Command line
 now using the command ls(for Linux) and dir (for Windows), check if u can find ngrok.exe file
 
 the file should be present in your RasaProject folder, if it is then
-   ngrok http 5005   
+`ngrok http 5005`  
 ^ command could open up a channel that we would be using further for connecting Twilio with out Bot.
 
   
