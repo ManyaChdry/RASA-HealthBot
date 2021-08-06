@@ -1,4 +1,5 @@
 Sign up for free on www.twilio.com   
+Select programmable messaging service from the options.
 In order to connect Twilio to our chatbot we use ngrok
 
 Sign up for free on NGROK account: we use ngrok to get a public URL for our local web application.
