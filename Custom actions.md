@@ -49,6 +49,15 @@ If rasa is installed, you can run the action server using a rasa command** <br>
 The Tracker class represents a Rasa conversation tracker. It lets you access your bot's memory in your custom actions. You can get information about past events and the current state of the conversation through Tracker attributes and methods.
 
 ### Header 
-It specifies the content type that is json format
+
+Python requests are generally used to fetch the content from a particular resource URI. Whenever we make a request to a specified URI through Python, it returns a response object. Now, this response object would be used to access certain features such as content, headers, etc. <br>
+Headers are used for different purposes such as Authentication/ Passing and retrieving data from the server, etc.<br>
+**The HTTP Authorization request header contains the credentials to authenticate a user agent with a server.**<br>
+
+#### To specify the content types of the request body and output, use the Content-Type and Accept headers.
+
+**CONTENT- TYPE -application/json -	indicates that the request body format is JSON.** <br>
+**ACCEPT - application/json	Sets output type to JSON.** <br>
+It specifies the content type that is json format . 
  
 
