@@ -89,3 +89,120 @@ People:
 Step 1: Filter conversations
 
 Open Rasa X and navigate to the Conversations screen. First, we’ll apply a filter to omit very short conversations. Open the filter menu, select Other as the filter type, and set the Message length filter to 5. This helps us weed out conversations where the user opened the chat session and immediately closed it. (filtering for very short conversations can also be useful to diagnose low engagement)
+
+Read through few conversations. Ask yourself:
+
+    Did the assistant make any mistakes? What type of mistakes?
+    Did the user’s sentiment seem positive or negative?
+    Was there anything surprising about the way the user phrased their requests?
+    Was the user able to complete their goal?
+
+Step 2: Use tags to apply labels
+
+In the right hand panel, click the Tags gear and select the option to create a new tag. For each conversation you read, consider which labels might help you categorize and evaluate the conversation. Here are a few ideas:
+
+    Positive or negative sentiment
+    NLU error
+    Out-of-scope request ( or feature request)
+    Goal completed
+
+Apply one or more tags to the conversation. If you find individual messages that require further discussion, use the message flag feature to mark and share them.
+
+Step 3: Search for significant conversations
+
+Return to the filters on the Conversation screen and note that you can now filter by the tags you’ve created. Use the filters to search your conversations and consider which produce an interesting sample set.
+
+As you read conversations, use the Mark as reviewed button to indicate you’ve read them.
+
+Step 4: Annotate user messages
+
+Navigate to the NLU Inbox. The NLU Inbox displays user messages that don’t match any training examples you already have in your NLU data. 
+
+Use the sort dropdown to filter messages with low confidence to the top of the inbox. Working your way from lowest to highest confidence, correct the intent and entity labels if needed and mark the message Correct to add it to your training data. If you find messages you don’t want to add to your training data, e.g. spam them.
+
+After annotating data, retrain and test your new model.
+
+Step 5: Document what needs to be fixed
+
+![d](https://user-images.githubusercontent.com/69692410/129484875-d77cede5-b8ac-4c8b-95b2-5db601f9b65e.JPG)
+
+*Fix and Test
+
+Play 4: Establish a Development and Testing Workflow
+
+Materials:
+Rasa X instance, running on a server
+Git repository for your assistant (Bitbucket, GitLab, GitHub, etc.)
+CI/CD tool (Circle CI, Jenkins, Bitbucket, GitHub Actions, etc.)
+
+When you run on a CI/CD server, these tests can tell you whether the changes you’ve made have resulted in better performance or introduced a new problem—before you deploy the new model to production.
+
+Step 1: Connect version control
+
+Establish the connection between your deployment and version control by using Integrated Version Control to connect Rasa X to your Git repository.
+
+Step 2: Create a conversation test set
+Navigate to the Conversations screen in your Rasa X dashboard. Locate a conversation your assistant handled well—one where your assistant gave the correct responses to the user’s requests. You want your conversation test set to reflect the kinds of conversations users typically have with your assistant or a conversation you want to make sure your assistant continues to handle well. 
+
+Once you’ve located a successful conversation, click the Save test conversation button to automatically add the conversation to your test set. When you run the rasa test CLI command, the conversation test function checks the model’s prediction at each step, so you can be sure a conversation that worked in the past hasn’t broken.
+
+Step 3: Set up a CI/CD build pipeline
+
+Using the CI/CD tool of your choice, configure your build pipeline. You can deploy a Rasa assistant by following these basic steps:
+
+    Start with a base image that supports Python 3.6 or 3.7
+    Install Rasa Open Source and any dependencies needed by your custom actions
+    Run data validation, to check for mistakes in training data
+    Train the new model
+    Run conversation tests
+    Test the NLU model
+    Deploy the new model
+
+Step 4: Test the deployment
+
+Trigger the deployment pipeline by making an update, eg by annotating a few user messages in the NLU inbox. After annotating a message, you’ll see the Integrated Version Control indicator turn orange; click it and push the changes to Git. 
+
+Trigger your CI/CD pipeline by opening a pull request! Review the pull request as a team. Look through the test results produced by the CI run, and merge the pull request if the results check out.
+
+![e](https://user-images.githubusercontent.com/69692410/129485162-d383c57c-8b37-4f4d-adf9-3c964955cafe.JPG)
+
+*Track
+
+It could be the most important question conversational AI teams ask: is the assistant really helping users?
+
+Teams typically look at two types of metrics to answer that question: direct measures and proxy measures.
+
+In direct measures, teams can track the number of users and conversations the assistant handled, or the session length, or the average number of messages sent in a conversation.
+
+Proxy measures of whether an assistant helped a user are just as important, one might track whether or not a customer contacts support a second time within 24 hours, or clicks a link or CTA, or rates a positive NPS score from an exit survey. 
+
+*Play 5:Identify the Metrics that Matter
+
+Materials:
+Post-it notes and markers for each member of the group
+Whiteboard or large sheet of paper
+Timer
+
+Step 1: Brainstorm questions
+
+Ask participants to write down questions about the assistant’s success rate on individual. Eg- whether a user would choose getting help from the assistant over other methods, the number of contacts deflected, or how many users complete their goal within a session.
+
+Step 2: Rank the important questions
+
+Collect all of the Post-it notes. The facilitator reads each note and places it on the whiteboard. Similar questions should be grouped together to track duplicates.
+Rank the top 5 questions according to the number of duplicate “votes” and group discussion.
+
+Step 3: Establish measurable answers
+
+Move all question except the top 5 to an out-of-the-way area of the board. Ask participants to brainstorm measurable ways to answer each of the top 5 questions and write down each idea on its own Post-it. 
+
+
+Step 4: Balance direct metrics with proxies
+
+On your whiteboard divide the space into two halves: Direct Metrics (measured inside the assistant) and Proxy Metrics (measured outside the assistant). The facilitator collects all of the Post-its from Step 4 and reads the ideas out loud. They sort each idea into the appropriate section of the board.
+
+When all ideas have been sorted, consider the balance of proxy to direct metrics. 
+
+Step 5: Summarize your findings
+
+Document the session by taking pictures of the board and summarizing the brainstorming session in a place where it can be accessed across the organization. 
