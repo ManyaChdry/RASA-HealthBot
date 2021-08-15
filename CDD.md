@@ -9,11 +9,17 @@ We see exactly how each interaction went in the conversation data, these convers
 The core idea of CDD is making full use of conversation data: conversations provide training data for your model and guide your development decisions by showing you what is and isn’t working about your assistant’s design. The other piece of CDD is rooted in engineering best practices.
 
 These ideas can be incorporated into six steps that make up CDD:
+
 *Share* - Test your prototype early in the development process with users from outside your development team.
+
 *Review* - Read the conversations that users have with your assistant, instead of focusing entirely on top-level metrics.
+
 *Annotate* - Convert the messages that users send to your assistant into training examples.
+
 *Test* - Make testing an automated step, every time you deploy new changes.
+
 *Track* - Measure meaningful metrics, so you can understand what’s working and not working.
+
 *Fix* - Reduce failures over time by making adjustments based on analyzing your assistant’s interactions.
 
 Rasa X was a tool developed that would make it simple to sift through conversation data and make it actionable. Rasa X layers on top of Rasa Open Source and provides a UI for reviewing conversation data and annotating user messages. It also includes features for testing your assistant and sharing it with other users before you go live.
