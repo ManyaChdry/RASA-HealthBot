@@ -2,7 +2,7 @@ CDD is a set of activities and design principles that help conversational AI tea
 
 We can use conversation data to understand the user based on past interactions and even feed conversations back into the assistant as training data, allowing the assistant to learn and better recognize what users are saying over time.
 
-This principle is one key idea behind conversation-driven development (CDD): that we can build better AI assistants when we listen to users and use what they say to guide our development.
+This principle is one key idea behind *conversation-driven development* (CDD): that we can build better AI assistants when we listen to users and use what they say to guide our development.
 
 We see exactly how each interaction went in the conversation data, these conversations can become training data that helps our model become better over the time.
 
@@ -25,3 +25,7 @@ These ideas can be incorporated into six steps that make up CDD:
 Rasa X was a tool developed that would make it simple to sift through conversation data and make it actionable. Rasa X layers on top of Rasa Open Source and provides a UI for reviewing conversation data and annotating user messages. It also includes features for testing your assistant and sharing it with other users before you go live.
 
 As one practice CDD over time, one’ll reach a point where most of the messages users send will already be in the training data—and DIET (our NLU architecture) typically fits to training data messages with 100% accuracy. 
+
+![a](https://user-images.githubusercontent.com/69692410/129474864-8a1ceebe-ac15-41cf-9246-6a6e431ee824.JPG)
+![b](https://user-images.githubusercontent.com/69692410/129474874-d30a85a7-938f-410f-95d8-6dcb20a9cccb.JPG)
+
