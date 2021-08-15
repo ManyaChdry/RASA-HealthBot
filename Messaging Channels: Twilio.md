@@ -51,10 +51,9 @@ You can leave ngrok running while you are working on your bot. If you stop your 
 **Starting Ngrok on Windows** 
 Step-1: Install Ngrok and extract the files.  
 Step-2: Click on the .exe file, installed.  
-Step-3: Use the command:   
-``` ngrok http 5005
-```
+Step-3: Use the command:
 
+     ngrok http 5005
 
 ### Complete Steps for using twilio and ngrok for using whatsapp as messeging channel:  
 ➡️Sign up for twilio.(Make sure your the number used has a whatsapp business account).     
