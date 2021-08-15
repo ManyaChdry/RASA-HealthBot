@@ -26,7 +26,7 @@ Rasa X was a tool developed that would make it simple to sift through conversati
 
 As one practice CDD over time, one’ll reach a point where most of the messages users send will already be in the training data—and DIET (our NLU architecture) typically fits to training data messages with 100% accuracy. 
 
-****Play 1: Self Assessment
+**Play 1: Self Assessment
 
 
 Give this templet to each of the member to review and fill their individual scores, then calculate the avg score  
@@ -44,7 +44,7 @@ Rasa X provides a simple chat interface, where one can test before one connects 
 
 
 
-****Play 2: Conduct a User Test
+**Play 2: Conduct a User Test
 
 Materials:
 Rasa X instance, running locally or on a server
@@ -80,7 +80,7 @@ With AI assistants, what users say is actually what they do. Software teams ofte
 Rasa X collects the conversations users have with your assistant and makes them accessible through a user interface. You can filter your conversations to surface interactions where a fallback action occurred, the channel the conversation came through, the length of the conversation, and more.
 
 
-****Play 3: Filter Conversations and Annotate Messages
+**Play 3: Filter Conversations and Annotate Messages
 
 Materials:
 Rasa X instance, running locally or on a server
@@ -129,9 +129,9 @@ Step 5: Document what needs to be fixed
 
 ![d](https://user-images.githubusercontent.com/69692410/129484875-d77cede5-b8ac-4c8b-95b2-5db601f9b65e.JPG)
 
-****Fix and Test
+**Fix and Test
 
-****Play 4: Establish a Development and Testing Workflow
+**Play 4: Establish a Development and Testing Workflow
 
 Materials:
 Rasa X instance, running on a server
@@ -169,7 +169,7 @@ Trigger your CI/CD pipeline by opening a pull request! Review the pull request a
 
 ![e](https://user-images.githubusercontent.com/69692410/129485162-d383c57c-8b37-4f4d-adf9-3c964955cafe.JPG)
 
-****Track
+**Track
 
 It could be the most important question conversational AI teams ask: is the assistant really helping users?
 
@@ -179,7 +179,7 @@ In direct measures, teams can track the number of users and conversations the as
 
 Proxy measures of whether an assistant helped a user are just as important, one might track whether or not a customer contacts support a second time within 24 hours, or clicks a link or CTA, or rates a positive NPS score from an exit survey. 
 
-****Play 5:Identify the Metrics that Matter
+**Play 5:Identify the Metrics that Matter
 
 Materials:
 Post-it notes and markers for each member of the group
@@ -212,38 +212,38 @@ Document the session by taking pictures of the board and summarizing the brainst
 
 ![f](https://user-images.githubusercontent.com/69692410/129485668-bc12a8db-d998-480d-8c0b-49e924685a8a.JPG)
 
-****SUMMARY
+**SUMMARY
 CDD Checklist
 
-Share
+*Share
 
     Conduct a user test with internal testers
     Conduct a user test with a focus group of real users
 
-Review
+*Review
 
     Read conversations
     In Rasa X, use filters to surface important conversations
     Identify issues that need to be addressed
     Identify successful conversation that can be turned into training stories and tests
 
-Annotate
+*Annotate
 
     Label user messages and add them to training data
     Convert successful conversations into training stories
 
-Fix
+*Fix
 
     Connect your assistant to version control
     Make updates to address issues uncovered during review 
 
-Test
+*Test
 
     Establish a CI/CD pipeline
     Make automated tests part of your CI/CD process
     Institute a code review process
 
-Track
+*Track
 
     Identify proxy metrics as well as top-level statistics to measure success
     Use tags to label when events occur in conversations
